@@ -1,6 +1,6 @@
 # Scientific Information Retrieval 'Chatbot'
 
-Hybrid TF-IDF/Word2Vec retrieval engine for scientific literature search. Evaluated on RELISH dataset.
+Sparse vs Dense Embeddings for Scientific Article Recommendation  
 
 ## Data Requirements
 ```
@@ -17,20 +17,16 @@ data/relish/
 
 **Models**
 - TF-IDF: lexical similarity
-- Word2Vec: semantic similarity  
-- Hybrid scorer: weighted fusion
+- Transformer-Based Model (SPECTER2)
 
 **Evaluation**
 - Metrics: P@10, MAP, NDCG@10, Recall@10
-- Output: `results/*.csv`
 
-## Execution Flow
+## Task Definition
 
-1. Initialize directory structure (`data/`, `models/`, `results/`)
-2. Load and preprocess corpus
-3. Train retrieval models
-4. Run queries (article abstracts)
-5. Compute evaluation metrics on query subset
+Input: PubMed article (PMID or abstract)   
+Output: Top-k scientifically relevant articles   
+Objective: Rank relevant documents as high as possible   
 
 ## Purpose
 
