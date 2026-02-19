@@ -1,4 +1,4 @@
-# Scientific Information Retrieval 'Chatbot'
+# Scientific Information Retrieval 
 
 Sparse vs Dense Embeddings for Scientific Article Recommendation  
 
