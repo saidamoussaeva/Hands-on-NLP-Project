@@ -19,6 +19,22 @@ data/relish/
 - TF-IDF: lexical similarity
 - Transformer-Based Model (SPECTER2)
 
+#### --> Use with Google Colab & Transformers Model
+*Why a Transformers model?*
+In order to go further and evaluate the results of our initial method (TF-IDF), we wanted to compare them with a Transformers model. We specifically chose to use **SPECTER2** and its **"proximity"** adapter. This model is specially trained to generate high-performance embeddings for scientific tasks such as article recommendation and proximity. 
+*To learn more about this model: [https://huggingface.co/allenai/specter2](https://huggingface.co/allenai/specter2).*
+
+**Launch the notebook on Google Colab**
+Everything is prepared in the `OptimusPrime_for_GoogleColab.ipynb` notebook. Here are the steps to launch it correctly with the necessary hardware acceleration:
+
+1. Go to your Google Drive.
+2. Create a folder named `Project_NLP`.
+3. Drag the notebook `OptimusPrime_for_GoogleColab.ipynb` into it and double-click on it to open it in Google Colab.
+4. **Selecting the kernel:**
+   - In the top right corner of the Colab interface, click on the small arrow next to *'Connect'* (or *'RAM/Disk'*).
+   - Select **Change runtime type**.
+   - Choose the **T4 GPU** hardware accelerator and confirm.
+
 **Evaluation**
 - Metrics: P@10, MAP, NDCG@10, Recall@10
 
