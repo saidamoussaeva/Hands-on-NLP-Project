@@ -36,7 +36,7 @@ Everything is prepared in the `OptimusPrime_for_GoogleColab.ipynb` notebook. Her
    - Choose the **T4 GPU** hardware accelerator and confirm.
 
 **Evaluation**
-- Metrics: P@10, MAP, NDCG@10, Recall@10
+- Metrics: P@10, MAP, NDCG@10, Recall@10, F1@10
 
 ## Task Definition
 
